@@ -1,14 +1,16 @@
 {
     "name": "maxstore/testform",
     "description": "A test form package for laravel",
+    "type": "library",
+    "license": "MIT",
     "authors": [{
         "name": "Maxstore",
         "email": "dev@maxstore.com"
     }],
-    "require": {},
     "autoload": {
         "psr-4": {
             "Maxstore\\Testform\\": "src/"
         }
-    }
+    },
+    "require": {}
 }
