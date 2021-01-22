@@ -12,5 +12,13 @@
             "Maxstore\\Testform\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maxstore\\Testform\\TestFormServiceProvider"
+            ]
+        }
+    }
+    
 }
