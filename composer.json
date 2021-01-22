@@ -1,0 +1,14 @@
+{
+    "name": "Maxstore/Testform",
+    "description": "A test form package for laravel",
+    "authors": [{
+        "name": "Maxstore",
+        "email": "dev@maxstore.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Maxstore\\testform\\": "src/"
+        }
+    }
+}
